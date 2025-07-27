@@ -132,40 +132,31 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form 
-
-action="https://formsubmit.co/utoopiaofficial@gmail.com"
-								
-  method="POST" 
-  target="_blank"
-  autocomplete="off"
->
-  <!-- Prevent spam (honeypot field) -->
-  <input type="text" name="_formsubmit_id" style="display:none">
+							      
+<form action="https://formsubmit.co/utoopiaofficial@gmail.com" method="POST">
+  
+  <!-- The problematic honeypot field has been removed -->
 
   <div class="fields">
     <div class="field">
       <label for="name">Name</label>
-      <input type="text" name="name" id="name" required maxlength="100" />
+      <input type="text" name="name" id="name" required />
     </div>
     <div class="field">
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" required maxlength="100" />
+      <input type="email" name="email" id="email" required />
     </div>
     <div class="field">
       <label for="message">Message</label>
-      <textarea name="message" id="message" rows="4" required maxlength="1000"></textarea>
+      <textarea name="message" id="message" rows="4" required></textarea>
     </div>
   </div>
-
-
-  <!-- Add nonce to stop caching if CSP uses strict-dynamic (optional) -->
-  <!-- <input type="hidden" name="_nonce" value="<?php echo htmlspecialchars($nonce); ?>"> -->
-
   <ul class="actions">
     <li><input type="submit" value="Send Message" /></li>
   </ul>
 </form>
+
+    
 
 							<ul class="contact">
 								<li class="icon solid fa-home">
